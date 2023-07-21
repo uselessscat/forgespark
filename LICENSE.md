@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2023 The Factory contributors.
+Copyright (c) 2023 ForgeSpark contributors.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
