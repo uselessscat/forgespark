@@ -2,12 +2,24 @@ import srcCopper from '/src/assets/images/copper.png';
 
 function Card() {
     return (
-        <div className='w-60 p-2 shadow-md rounded-xl' style={{ 'background': 'linear-gradient(#f0eadb, #c3bbaa)' }}>
-            <span className='text-xl'>Cobre</span>
+        <div className='w-60 p-1 shadow-md rounded-md' style={{ 'background': '#454644' }}>
+            <div className='px-1 pt-1 pb-2'>
+                <div className='p-1 rounded-md shadow' style={{ 'background': '#848079' }}>
+                    <div className='p-2 rounded-md shadow' style={{ 'background': '#a5a59b' }}>
+                        <p className='text-xl'>Cobre</p>
+                    </div>
+                </div>
+            </div>
             <img src={srcCopper} />
-            <span>Se trata de un metal de transición de color rojizo anaranjado.</span>
-            <br />
-            <span className='italic'>"El cobre es uno de los primeros metales que la humanidad comenzó a utilizar."</span>
+            <div className='px-1 pt-2 pb-1'>
+                <div className='p-1 rounded-md shadow' style={{ 'background': '#848079' }}>
+                    <div className='p-2 rounded-md shadow' style={{ 'background': '#a5a59b' }}>
+                        <span>Se trata de un metal de transición de color rojizo anaranjado.</span>
+                        <br />
+                        <span className='italic'>"El cobre es uno de los primeros metales que la humanidad comenzó a utilizar."</span>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
